@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_layout_hero_sections",
+  "info": {
+    "displayName": "hero_section",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "sub_heading": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "text": {
+      "type": "text"
+    },
+    "page_type": {
+      "type": "enumeration",
+      "enum": [
+        "events",
+        "page"
+      ]
+    }
+  }
+}
